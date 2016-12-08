@@ -1,4 +1,4 @@
-#Parse les stats générées par le server
+#Parse les stats générées par le serveur
 
 java ParserStatsMc statsHamilcare.json 
 #Input : statsHamilcare.json est le fichier raw_data correspondant au joueur hamilcare
