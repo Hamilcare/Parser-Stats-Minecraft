@@ -1,0 +1,13 @@
+#Parse les stats générées par le server
+
+java ParserStatsMc statsHamilcare.json 
+#Input : statsHamilcare.json est le fichier raw_data correspondant au joueur hamilcare
+#Output : Hamilcare est le fichier formate généré par le parser
+
+java ParserStatsMc statsHamilcare.json statsCortayx.json
+#Input : cf ci dessus
+#Output : totalHamilcareCortayx est le fichier sommant les stats du 
+joueur Hamilcare et du joueur Cortayx
+
+
+
